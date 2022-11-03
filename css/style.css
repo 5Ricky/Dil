@@ -1,5 +1,6 @@
 body {
-    text-align: centre;
+    margin: 0px;
+    text-align: center;
 }
 .red1{
     background-color: red;
@@ -99,8 +100,8 @@ body {
     position: absolute;
     width: 50px;
     height: 50px;
-    left: ;
-    top: ;
+    left: 150px;
+    top: 50px;
     
 }
 .orange2{
@@ -108,8 +109,8 @@ body {
     position: absolute;
     width: 50px;
     height: 50px;
-    left: ;
-    top: ;
+    left: 150px;
+    top: 100px;
     
 }
 .orange3{
@@ -117,8 +118,8 @@ body {
     position: absolute;
     width: 50px;
     height: 50px;
-    left: ;
-    top: ;
+    left: 150px;
+    top: 150px;
     
 }
 .orange4{
@@ -126,8 +127,8 @@ body {
     position: absolute;
     width: 50px;
     height: 50px;
-    left: ;
-    top: ;
+    left: 200px;
+    top: 50px;
     
 }
 .orange5{
@@ -135,8 +136,8 @@ body {
     position: absolute;
     width: 50px;
     height: 50px;
-    left: ;
-    top: ;
+    left: 200px;
+    top: 100px;
     
 }
 .orange6{
@@ -144,8 +145,8 @@ body {
     position: absolute;
     width: 50px;
     height: 50px;
-    left: ;
-    top: ;
+    left: 200px;
+    top: 150px;
     
 }
 .orange7{
@@ -153,8 +154,8 @@ body {
     position: absolute;
     width: 50px;
     height: 50px;
-    left: ;
-    top: ;
+    left: 200px;
+    top: 200px;
     
 }
 .orange8{
@@ -162,8 +163,8 @@ body {
     position: absolute;
     width: 50px;
     height: 50px;
-    left: ;
-    top: ;
+    left: 200px;
+    top: 250px;
     
 }
 
@@ -175,7 +176,7 @@ body {
     position: absolute;
     width: 50px;
     height: 50px;
-    left: ;
+    left: 250px;
     top: ;
 
 }
