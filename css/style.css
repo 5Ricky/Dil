@@ -177,7 +177,7 @@ body {
     width: 50px;
     height: 50px;
     left: 250px;
-    top: ;
+    top: 100px;
 
 }
 .yellow2 {
@@ -185,8 +185,8 @@ body {
     position: absolute;
     width: 50px;
     height: 50px;
-    left: ;
-    top: ;
+    left: 250px;
+    top: 150px;
 
 }
 .yellow3 {
@@ -194,8 +194,8 @@ body {
     position: absolute;
     width: 50px;
     height: 50px;
-    left: ;
-    top: ;
+    left: 250px;
+    top: 200px;
 
 }
 .yellow4 {
@@ -203,8 +203,8 @@ body {
     position: absolute;
     width: 50px;
     height: 50px;
-    left: ;
-    top: ;
+    left: 250px;
+    top: 250px;
 
 }
 .yellow5 {
@@ -212,8 +212,8 @@ body {
     position: absolute;
     width: 50px;
     height: 50px;
-    left: ;
-    top: ;
+    left: 250px;
+    top: 300px;
 
 }
 .yellow6 {
@@ -221,8 +221,8 @@ body {
     position: absolute;
     width: 50px;
     height: 50px;
-    left: ;
-    top: ;
+    left: 250px;
+    top: 350px;
 
 }
 .yellow7 {
@@ -230,8 +230,8 @@ body {
     position: absolute;
     width: 50px;
     height: 50px;
-    left: ;
-    top: ;
+    left: 250px;
+    top: 400px;
 
 }
 .yellow8 {
@@ -239,8 +239,8 @@ body {
     position: absolute;
     width: 50px;
     height: 50px;
-    left: ;
-    top: ;
+    left: 300px;
+    top: 150px;
 
 }
 .yellow9 {
@@ -248,8 +248,8 @@ body {
     position: absolute;
     width: 50px;
     height: 50px;
-    left: ;
-    top: ;
+    left: 300px;
+    top: 200px;
 
 }
 .yellow10 {
@@ -257,8 +257,8 @@ body {
     position: absolute;
     width: 50px;
     height: 50px;
-    left: ;
-    top: ;
+    left: 300px;
+    top: 250px;
 
 }
 .yellow11 {
@@ -266,8 +266,8 @@ body {
     position: absolute;
     width: 50px;
     height: 50px;
-    left: ;
-    top: ;
+    left: px;
+    top: px;
 
 }
 
@@ -278,8 +278,8 @@ body {
     position: absolute;
     width: 50px;
     height: 50px;
-    left: ;
-    top: ;
+    left: 350px;
+    top: 150px;
 
 }
 .green2 {
@@ -287,8 +287,8 @@ body {
     position: absolute;
     width: 50px;
     height: 50px;
-    left: ;
-    top: ;
+    left: 350px;
+    top: 200px;
 
 }
 .green3 {
@@ -296,8 +296,8 @@ body {
     position: absolute;
     width: 50px;
     height: 50px;
-    left: ;
-    top: ;
+    left: 400px;
+    top: 100px;
 
 }
 .green4 {
@@ -305,8 +305,8 @@ body {
     position: absolute;
     width: 50px;
     height: 50px;
-    left: ;
-    top: ;
+    left: 400px;
+    top: 150;
 
 }
 .green5 {
@@ -314,8 +314,8 @@ body {
     position: absolute;
     width: 50px;
     height: 50px;
-    left: ;
-    top: ;
+    left: 400px;
+    top: 200px;
 
 }
 .green6 {
@@ -323,8 +323,8 @@ body {
     position: absolute;
     width: 50px;
     height: 50px;
-    left: ;
-    top: ;
+    left: 400px;
+    top: 250px;
 
 }
 .green7 {
@@ -332,8 +332,8 @@ body {
     position: absolute;
     width: 50px;
     height: 50px;
-    left: ;
-    top: ;
+    left: 400px;
+    top: 300px;
 
 }
 
@@ -343,8 +343,8 @@ body {
     position: absolute;
     width: 50px;
     height: 50px;
-    left: ;
-    top: ;
+    left: 450px;
+    top: 50px;
 
 }
 .sky2 {
@@ -352,8 +352,8 @@ body {
     position: absolute;
     width: 50px;
     height: 50px;
-    left: ;
-    top: ;
+    left: 450px;
+    top: 100px;
 
 }
 .sky3 {
@@ -361,8 +361,8 @@ body {
     position: absolute;
     width: 50px;
     height: 50px;
-    left: ;
-    top: ;
+    left: 450px;
+    top: 150px;
 
 }
 .sky4 {
@@ -370,8 +370,8 @@ body {
     position: absolute;
     width: 50px;
     height: 50px;
-    left: ;
-    top: ;
+    left: 450px;
+    top: 200px;
 
 }
 .sky5 {
@@ -379,8 +379,8 @@ body {
     position: absolute;
     width: 50px;
     height: 50px;
-    left: ;
-    top: ;
+    left: 500px;
+    top: 50px;
 
 }
 .sky6 {
@@ -388,8 +388,8 @@ body {
     position: absolute;
     width: 50px;
     height: 50px;
-    left: ;
-    top: ;
+    left: 500px;
+    top: 100px;
 
 }
 .sky7 {
@@ -397,8 +397,8 @@ body {
     position: absolute;
     width: 50px;
     height: 50px;
-    left: ;
-    top: ;
+    left: 500px;
+    top: 150px;
 
 }
 
@@ -408,8 +408,8 @@ body {
     position: absolute;
     width: 50px;
     height: 50px;
-    left: ;
-    top: ;
+    left: 550px;
+    top: 50px;
 
 }
 .purple2 {
@@ -417,8 +417,8 @@ body {
     position: absolute;
     width: 50px;
     height: 50px;
-    left: ;
-    top: ;
+    left: 550px;
+    top: 100px;
 
 }
 .purple3 {
@@ -426,8 +426,8 @@ body {
     position: absolute;
     width: 50px;
     height: 50px;
-    left: ;
-    top: ;
+    left: 550px;
+    top: 150px;
 
 }
 .purple4 {
@@ -435,8 +435,8 @@ body {
     position: absolute;
     width: 50px;
     height: 50px;
-    left: ;
-    top: ;
+    left: 550px;
+    top: 200px;
 
 }
 .purple5 {
@@ -444,8 +444,8 @@ body {
     position: absolute;
     width: 50px;
     height: 50px;
-    left: ;
-    top: ;
+    left: 600px;
+    top: 100px;
 
 }
 .purple6 {
@@ -453,8 +453,8 @@ body {
     position: absolute;
     width: 50px;
     height: 50px;
-    left: ;
-    top: ;
+    left: 600px;
+    top: 150px;
 
 }
 .purple7 {
@@ -462,8 +462,8 @@ body {
     position: absolute;
     width: 50px;
     height: 50px;
-    left: ;
-    top: ;
+    left: 600px;
+    top: 200px;
 
 }
 .purple8 {
@@ -471,8 +471,8 @@ body {
     position: absolute;
     width: 50px;
     height: 50px;
-    left: ;
-    top: ;
+    left: 600px;
+    top: 250px;
 
 }
 
