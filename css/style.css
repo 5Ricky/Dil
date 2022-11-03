@@ -1,4 +1,6 @@
-
+body {
+    text-align: centre;
+}
 .red1{
     background-color: red;
     position: absolute;
