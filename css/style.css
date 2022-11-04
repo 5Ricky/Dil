@@ -1,7 +1,5 @@
-body {
-    margin: 0px;
-    text-align: center;
-}
+
+
 .red1{
     background-color: red;
     position: absolute;
@@ -261,16 +259,6 @@ body {
     top: 250px;
 
 }
-.yellow11 {
-    background-color: yellow;
-    position: absolute;
-    width: 50px;
-    height: 50px;
-    left: px;
-    top: px;
-
-}
-
 
 
 .green1 {
@@ -591,11 +579,56 @@ body {
     position: absolute;
     width: 50px;
     height: 50px;
-    left: 200px;
-    top: 250px;
+    left: 150px;
+    top: 200px;
 
 }
 .black14 {
+    background-color: black;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 150px;
+    top: 250px;
+
+}
+.black15 {
+    background-color: black;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 150px;
+    top: 300px;
+
+}
+.black16 {
+    background-color: black;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 150px;
+    top: 350px;
+
+}
+.black17 {
+    background-color: black;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 150px;
+    top: 400px;
+
+}
+.black18 {
+    background-color: black;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 150px;
+    top: 450px;
+
+}
+.black19 {
     background-color: black;
     position: absolute;
     width: 50px;
@@ -604,58 +637,13 @@ body {
     top: 300px;
 
 }
-.black15 {
-    background-color: black;
-    position: absolute;
-    width: 50px;
-    height: 50px;
-    left: 200px;
-    top: 350px;
-
-}
-.black16 {
-    background-color: black;
-    position: absolute;
-    width: 50px;
-    height: 50px;
-    left: 200px;
-    top: 400px;
-
-}
-.black17 {
-    background-color: black;
-    position: absolute;
-    width: 50px;
-    height: 50px;
-    left: 200px;
-    top: 450px;
-
-}
-.black18 {
-    background-color: black;
-    position: absolute;
-    width: 50px;
-    height: 50px;
-    left: 200px;
-    top: 500px;
-
-}
-.black19 {
-    background-color: black;
-    position: absolute;
-    width: 50px;
-    height: 50px;
-    left: 250px;
-    top: 350px;
-
-}
 .black20 {
     background-color: black;
     position: absolute;
     width: 50px;
     height: 50px;
-    left: 250px;
-    top: 400px;
+    left: 200px;
+    top: 350px;
 
 }
 .black21 {
@@ -663,8 +651,8 @@ body {
     position: absolute;
     width: 50px;
     height: 50px;
-    left: 250px;
-    top: 450px;
+    left: 200px;
+    top: 400px;
 
 }
 .black22 {
@@ -672,8 +660,8 @@ body {
     position: absolute;
     width: 50px;
     height: 50px;
-    left: 250px;
-    top: 500px;
+    left: 200px;
+    top: 450px;
 
 }
 .black23 {
@@ -681,8 +669,8 @@ body {
     position: absolute;
     width: 50px;
     height: 50px;
-    left: 250px;
-    top: 550px;
+    left: 200px;
+    top: 500px;
 
 }
 .black24 {
@@ -691,7 +679,7 @@ body {
     width: 50px;
     height: 50px;
     left: 300px;
-    top: 50px;
+    top: 100px;
 
 }
 .black25 {
@@ -699,7 +687,7 @@ body {
     position: absolute;
     width: 50px;
     height: 50px;
-    left: 300px;
+    left: 250px;
     top: 450px;
 
 }
@@ -708,7 +696,7 @@ body {
     position: absolute;
     width: 50px;
     height: 50px;
-    left: 300px;
+    left: 250px;
     top: 500px;
 
 }
@@ -717,7 +705,7 @@ body {
     position: absolute;
     width: 50px;
     height: 50px;
-    left: 300px;
+    left: 250px;
     top: 550px;
 
 }
@@ -735,7 +723,7 @@ body {
     position: absolute;
     width: 50px;
     height: 50px;
-    left: 350px;
+    left: 300px;
     top: 350px;
 
 }
@@ -744,7 +732,7 @@ body {
     position: absolute;
     width: 50px;
     height: 50px;
-    left: 350px;
+    left: 300px;
     top: 400px;
 
 }
@@ -753,7 +741,7 @@ body {
     position: absolute;
     width: 50px;
     height: 50px;
-    left: 350px;
+    left: 300px;
     top: 450px;
 
 }
@@ -762,7 +750,7 @@ body {
     position: absolute;
     width: 50px;
     height: 50px;
-    left: 350px;
+    left: 300px;
     top: 500px ;
 
 }
@@ -771,7 +759,7 @@ body {
     position: absolute;
     width: 50px;
     height: 50px;
-    left: 350px;
+    left: 300px;
     top: 550px;
 
 }
@@ -780,7 +768,7 @@ body {
     position: absolute;
     width: 50px;
     height: 50px;
-    left: 350px ;
+    left: 300px ;
     top: 600px;
 
 }
@@ -789,8 +777,8 @@ body {
     position: absolute;
     width: 50px;
     height: 50px;
-    left: 350px;
-    top: 650px;
+    left: 300px;
+    top: 300px;
 
 }
 .black36 {
@@ -799,7 +787,7 @@ body {
     width: 50px;
     height: 50px;
     left: 400px;
-    top: 100px;
+    top: 50px;
 
 }
 .black37 {
@@ -807,7 +795,7 @@ body {
     position: absolute;
     width: 50px;
     height: 50px;
-    left: 400px;
+    left: 350px;
     top: 300px;
 
 }
@@ -816,7 +804,7 @@ body {
     position: absolute;
     width: 50px;
     height: 50px;
-    left: 400px;
+    left: 350px;
     top: 350px;
 
 }
@@ -825,7 +813,7 @@ body {
     position: absolute;
     width: 50px;
     height: 50px;
-    left: 400px;
+    left: 350px;
     top: 400px;
 
 }
@@ -834,7 +822,7 @@ body {
     position: absolute;
     width: 50px;
     height: 50px;
-    left: 400px;
+    left: 350px;
     top: 450px;
 
 }
@@ -843,7 +831,7 @@ body {
     position: absolute;
     width: 50px;
     height: 50px;
-    left: 400px;
+    left: 350px;
     top: 500px;
 
 }
@@ -852,7 +840,7 @@ body {
     position: absolute;
     width: 50px;
     height: 50px;
-    left: 400px;
+    left: 350px;
     top: 550px;
 
 }
@@ -861,7 +849,7 @@ body {
     position: absolute;
     width: 50px;
     height: 50px;
-    left: 400px;
+    left: 350px;
     top: 600px;
 
 }
@@ -870,8 +858,8 @@ body {
     position: absolute;
     width: 50px;
     height: 50px;
-    left: 400px;
-    top: 650px;
+    left: 350px;
+    top: 250px;
 
 }
 .black45 {
@@ -879,8 +867,8 @@ body {
     position: absolute;
     width: 50px;
     height: 50px;
-    left: 450px;
-    top: 100px;
+    left: 250px;
+    top: 50px;
 
 }
 .black46 {
@@ -888,7 +876,7 @@ body {
     position: absolute;
     width: 50px;
     height: 50px;
-    left: 450px;
+    left: 400px;
     top: 350px;
 
 }
@@ -897,7 +885,7 @@ body {
     position: absolute;
     width: 50px;
     height: 50px;
-    left: 450px;
+    left: 400px;
     top: 400px;
 
 }
@@ -906,7 +894,7 @@ body {
     position: absolute;
     width: 50px;
     height: 50px;
-    left: 450px;
+    left: 400px;
     top: 450px;
 
 }
@@ -915,7 +903,7 @@ body {
     position: absolute;
     width: 50px;
     height: 50px;
-    left: 450px;
+    left: 400px;
     top: 500px;
 
 }
@@ -924,26 +912,18 @@ body {
     position: absolute;
     width: 50px;
     height: 50px;
-    left: 450px;
+    left: 400px;
     top: 550px;
 
 }
-.black51 {
-    background-color: black;
-    position: absolute;
-    width: 50px;
-    height: 50px;
-    left: 450px;
-    top: 600px;
 
-}
 .black52 {
     background-color: black;
     position: absolute;
     width: 50px;
     height: 50px;
-    left: ;
-    top: ;
+    left: 450px;
+    top: 0px;
 
 }
 .black53 {
@@ -951,8 +931,8 @@ body {
     position: absolute;
     width: 50px;
     height: 50px;
-    left: ;
-    top: ;
+    left: 450px;
+    top: 250px;
 
 }
 .black54 {
@@ -960,8 +940,8 @@ body {
     position: absolute;
     width: 50px;
     height: 50px;
-    left: ;
-    top: ;
+    left: 450px;
+    top: 300px;
 
 }
 .black56 {
@@ -969,8 +949,8 @@ body {
     position: absolute;
     width: 50px;
     height: 50px;
-    left: ;
-    top: ;
+    left: 450px;
+    top: 350px;
 
 }
 .black57 {
@@ -978,8 +958,8 @@ body {
     position: absolute;
     width: 50px;
     height: 50px;
-    left: ;
-    top: ;
+    left: 450px;
+    top: 400px;
 
 }
 .black58 {
@@ -987,8 +967,8 @@ body {
     position: absolute;
     width: 50px;
     height: 50px;
-    left: ;
-    top: ;
+    left: 450px;
+    top: 450px;
 
 }
 .black59 {
@@ -996,8 +976,8 @@ body {
     position: absolute;
     width: 50px;
     height: 50px;
-    left: ;
-    top: ;
+    left: 450px;
+    top: 500px;
 
 }
 .black60 {
@@ -1005,8 +985,8 @@ body {
     position: absolute;
     width: 50px;
     height: 50px;
-    left: ;
-    top: ;
+    left: 500px;
+    top: 0px;
 
 }
 .black61 {
@@ -1014,8 +994,8 @@ body {
     position: absolute;
     width: 50px;
     height: 50px;
-    left: ;
-    top: ;
+    left: 500px;
+    top: 200px;
 
 }
 .black62 {
@@ -1023,8 +1003,8 @@ body {
     position: absolute;
     width: 50px;
     height: 50px;
-    left: ;
-    top: ;
+    left: 500px;
+    top: 250px;
 
 }
 .black63 {
@@ -1032,8 +1012,8 @@ body {
     position: absolute;
     width: 50px;
     height: 50px;
-    left: ;
-    top: ;
+    left: 500px;
+    top: 300px;
 
 }
 .black64 {
@@ -1041,8 +1021,8 @@ body {
     position: absolute;
     width: 50px;
     height: 50px;
-    left: ;
-    top: ;
+    left: 500px;
+    top: 350px;
 
 }
 .black65 {
@@ -1050,8 +1030,8 @@ body {
     position: absolute;
     width: 50px;
     height: 50px;
-    left: ;
-    top: ;
+    left: 500px;
+    top: 400px;
 
 }
 .black66 {
@@ -1059,8 +1039,8 @@ body {
     position: absolute;
     width: 50px;
     height: 50px;
-    left: ;
-    top: ;
+    left: 500px;
+    top: 450px;
 
 }
 .black67 {
@@ -1068,8 +1048,8 @@ body {
     position: absolute;
     width: 50px;
     height: 50px;
-    left: ;
-    top: ;
+    left: 550px;
+    top: 0px;
 
 }
 .black68 {
@@ -1077,8 +1057,8 @@ body {
     position: absolute;
     width: 50px;
     height: 50px;
-    left: ;
-    top: ;
+    left: 550px;
+    top: 250px;
 
 }
 .black69 {
@@ -1086,8 +1066,8 @@ body {
     position: absolute;
     width: 50px;
     height: 50px;
-    left: ;
-    top: ;
+    left: 550px;
+    top: 300px;
 
 }
 .black70 {
@@ -1095,8 +1075,8 @@ body {
     position: absolute;
     width: 50px;
     height: 50px;
-    left: ;
-    top: ;
+    left: 550px;
+    top: 350px;
 
 }
 .black71 {
@@ -1104,8 +1084,8 @@ body {
     position: absolute;
     width: 50px;
     height: 50px;
-    left: ;
-    top: ;
+    left: 550px;
+    top: 400px;
 
 }
 .black72 {
@@ -1113,17 +1093,8 @@ body {
     position: absolute;
     width: 50px;
     height: 50px;
-    left: ;
-    top: ;
-
-}
-.black73 {
-    background-color: black;
-    position: absolute;
-    width: 50px;
-    height: 50px;
-    left: ;
-    top: ;
+    left: 600px;
+    top: 50px;
 
 }
 .black74 {
@@ -1131,8 +1102,8 @@ body {
     position: absolute;
     width: 50px;
     height: 50px;
-    left: ;
-    top: ;
+    left: 600px;
+    top: 300px;
 
 }
 .black75 {
@@ -1140,8 +1111,8 @@ body {
     position: absolute;
     width: 50px;
     height: 50px;
-    left: ;
-    top: ;
+    left: 600px;
+    top: 350px;
 
 }
 .black76 {
@@ -1149,8 +1120,8 @@ body {
     position: absolute;
     width: 50px;
     height: 50px;
-    left: ;
-    top: ;
+    left: 650px;
+    top: 100px;
 
 }
 .black77 {
@@ -1158,8 +1129,8 @@ body {
     position: absolute;
     width: 50px;
     height: 50px;
-    left: ;
-    top: ;
+    left: 50px;
+    top: 350px;
 
 }
 .black78 {
@@ -1167,7 +1138,47 @@ body {
     position: absolute;
     width: 50px;
     height: 50px;
-    left: ;
-    top: ;
+    left: 0px;
+    top: 300px;
+
+}
+
+.black79 {
+    background-color: black;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 650px;
+    top: 150px;
+
+}
+
+.black80 {
+    background-color: black;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 650px;
+    top: 200px;
+
+}
+
+.black81 {
+    background-color: black;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 650px;
+    top: 250px;
+
+}
+
+.black82 {
+    background-color: black;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 650px;
+    top: 300px;
 
 }
