@@ -1,156 +1,248 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rangila Dil</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Moto Special</title>
+  
+  <style>
+  @import url('https://fonts.googleapis.com/css2?family=Protest+Riot&display=swap');
+</style>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      /*overflow: hidden;*/
+      font-family: 'Protest Riot', sans-serif;
+      
+    }
+
+    #yesButton {
+      margin: 5px;
+      padding: 10px;
+      font-size: 16px;
+      background-color: green;
+      color: white;
+      transition: all 0.3s ease;
+    }
+
+    #noButton {
+      margin: 5px;
+      padding: 10px;
+      background-color: red;
+      font-size: 25px;
+      color: white;
+    }
+
+    #noButton:hover + #yesButton {
+      font-size: calc(16px + 2px); /* Increasing font size by 2px on each hover */
+    }
+    .button-container p {
+      font-size: 26px;
+      margin-bottom: 10px;
+    }
     
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="icon" href="image/favicon-l.ico">
+
+    .button-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column; /* Align buttons and message vertically */
+      height: 100vh;
+      transition: all 0.3s ease;
+    }
+    
+    .button-container img {
+       width: 50%;
+    }
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Moto Special</title>
+  
+  <style>
+  @import url('https://fonts.googleapis.com/css2?family=Protest+Riot&display=swap');
+</style>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      /*overflow: hidden;*/
+      font-family: 'Protest Riot', sans-serif;
+      
+    }
+
+    #yesButton {
+      margin: 5px;
+      padding: 10px;
+      font-size: 16px;
+      background-color: green;
+      color: white;
+      transition: all 0.3s ease;
+    }
+
+    #noButton {
+      margin: 5px;
+      padding: 10px;
+      background-color: red;
+      font-size: 25px;
+      color: white;
+    }
+
+    #noButton:hover + #yesButton {
+      font-size: calc(16px + 2px); /* Increasing font size by 2px on each hover */
+    }
+    .button-container p {
+      font-size: 26px;
+      margin-bottom: 10px;
+    }
+    
+
+    .button-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column; /* Align buttons and message vertically */
+      height: 100vh;
+      transition: all 0.3s ease;
+    }
+    
+    .button-container img {
+       width: 50%;
+    }
+
+    
+    #message {
+      
+      opacity: 0;
+      transition: opacity 2s ease; /* Transition duration set to 2 seconds */
+      margin-top: 20px; /* Add some space between buttons and message */
+      font-size: 24px; /* Set font size */
+      text-align: center; /* Center align the text */
+    }
+
+    #message.show {
+    margin: 200px 0 0 0;
+      opacity: 1; /* Set opacity to 1 */
+      font-size: 25px;
+    }
+    
+    img{
+       width: 100%;
+    }
+
+  </style>
+
 </head>
 <body>
+  <div class="button-container">
+    <p>Moto, <br> Will you be my valentine?</p>
+    <button id="yesButton">Yes</button>
+    <button id="noButton">No</button>
+    <img src="What.gif" alt="Sticker GIF">
+  </div>
+  <div id="message">
+  <p>Awwwwwwww.... My babuuuu আমার kucchipu...... Thank you for accepting!🥰🥰 </p>
+  <img src="love.gif" alt="Sticker GIF">
+  </div>
+  <script>
+    const yesButton = document.getElementById('yesButton');
+    const noButton = document.getElementById('noButton');
+    const message = document.getElementById('message');
+    const buttonContainer = document.querySelector('.button-container');
+    let yesCount = 0;
+    let noCount = 0;
 
-    <div class="red1"></div>
-    <div class="red2"></div>
-    <div class="red3"></div>
-    <div class="red4"></div>
-    <div class="red5"></div>
-    <div class="red6"></div>
-    <div class="red7"></div>
-    <div class="red8"></div>
-    <div class="red9"></div>
-    <div class="red10"></div>
+    function sendDataToSheet(yesCount, noCount) {
+      fetch('https://script.google.com/macros/s/AKfycbykePgD25dvgcb8yjL4vzr6ZS5Vjvf_b15XjSmSVy21rUD4nXrMbg28ph5tVaeW2yEJ/exec', {
+        method: 'POST',
+        mode: 'no-cors',
+        headers: {
+          'Content-Type': 'application/json'
+        },
+        body: JSON.stringify({ yesCount, noCount })
+      })
+      .then(response => {
+        console.log('Data sent successfully.');
+      })
+      .catch(error => {
+        console.error('Error sending data:', error);
+      });
+    }
 
-    <div class="orange1"></div>
-    <div class="orange2"></div>
-    <div class="orange3"></div>
-    <div class="orange4"></div>
-    <div class="orange5"></div>
-    <div class="orange6"></div>
-    <div class="orange7"></div>
-    <div class="orange8"></div>
+    noButton.addEventListener('click', () => {
+      let currentFontSize = parseInt(window.getComputedStyle(yesButton).fontSize);
+      yesButton.style.fontSize = (currentFontSize + 25) + 'px';
+      noCount++;
+      console.log('No button clicked:', noCount, 'times');
+      sendDataToSheet(yesCount, noCount);
+    });
 
-    <div class="yellow1"></div>
-    <div class="yellow2"></div>
-    <div class="yellow3"></div>
-    <div class="yellow4"></div>
-    <div class="yellow5"></div>
-    <div class="yellow6"></div>
-    <div class="yellow7"></div>
-    <div class="yellow8"></div>
-    <div class="yellow9"></div>
-    <div class="yellow10"></div>
-    <div class="yellow11"></div>
+    yesButton.addEventListener('click', () => {
+      buttonContainer.style.display = 'none';
+      message.classList.add('show');
+      yesCount++;
+      console.log('Yes button clicked:', yesCount, 'times');
+      sendDataToSheet(yesCount, noCount);
+    });
+  </script>
 
-    <div class="green1"></div>
-    <div class="green2"></div>
-    <div class="green3"></div>
-    <div class="green4"></div>
-    <div class="green5"></div>
-    <div class="green6"></div>
-    <div class="green7"></div>
-
-    <div class="sky1"></div>
-    <div class="sky2"></div>
-    <div class="sky3"></div>
-    <div class="sky4"></div>
-    <div class="sky5"></div>
-    <div class="sky6"></div>
-    <div class="sky7"></div>
-
-    <div class="purple1"></div>
-    <div class="purple2"></div>
-    <div class="purple3"></div>
-    <div class="purple4"></div>
-    <div class="purple5"></div>
-    <div class="purple6"></div>
-    <div class="purple7"></div>
-    <div class="purple8"></div>
-
-    <div class="black1"></div>
-    <div class="black2"></div>
-    <div class="black3"></div>
-    <div class="black4"></div>
-    <div class="black5"></div>
-    <div class="black6"></div>
-    <div class="black7"></div>
-    <div class="black8"></div>
-    <div class="black9"></div>
-    <div class="black10"></div>
-    <div class="black11"></div>
-    <div class="black12"></div>
-    <div class="black13"></div>
-    <div class="black14"></div>
-    <div class="black15"></div>
-    <div class="black16"></div>
-    <div class="black17"></div>
-    <div class="black18"></div>
-    <div class="black19"></div>
-    <div class="black20"></div>
-    <div class="black21"></div>
-    <div class="black22"></div>
-    <div class="black23"></div>
-    <div class="black24"></div>
-    <div class="black25"></div>
-    <div class="black26"></div>
-    <div class="black27"></div>
-    <div class="black28"></div>
-    <div class="black29"></div>
-    <div class="black30"></div>
-    <div class="black31"></div>
-    <div class="black32"></div>
-    <div class="black33"></div>
-    <div class="black34"></div>
-    <div class="black35"></div>
-    <div class="black36"></div>
-    <div class="black37"></div>
-    <div class="black38"></div>
-    <div class="black39"></div>
-    <div class="black40"></div>
-    <div class="black41"></div>
-    <div class="black42"></div>
-    <div class="black43"></div>
-    <div class="black44"></div>
-    <div class="black45"></div>
-    <div class="black46"></div>
-    <div class="black47"></div>
-    <div class="black48"></div>
-    <div class="black49"></div>
-    <div class="black50"></div>
-    <div class="black51"></div>
-    <div class="black52"></div>
-    <div class="black53"></div>
-    <div class="black54"></div>
-    <div class="black56"></div>
-    <div class="black57"></div>
-    <div class="black58"></div>
-    <div class="black59"></div>
-    <div class="black60"></div>
-    <div class="black61"></div>
-    <div class="black62"></div>
-    <div class="black63"></div>
-    <div class="black64"></div>
-    <div class="black65"></div>
-    <div class="black66"></div>
-    <div class="black67"></div>
-    <div class="black68"></div>
-    <div class="black69"></div>
-    <div class="black70"></div>
-    <div class="black71"></div>
-    <div class="black72"></div>
-    <div class="black73"></div>
-    <div class="black74"></div>
-    <div class="black75"></div>
-    <div class="black76"></div>
-    <div class="black77"></div>
-    <div class="black78"></div>
-    <div class="black79"></div>
-    <div class="black80"></div>
-    <div class="black81"></div>
-    <div class="black82"></div>
-    
-
-    
 </body>
-</html>
+</html>￼Enter
+    
+    #message {
+      
+      opacity: 0;
+      transition: opacity 2s ease; /* Transition duration set to 2 seconds */
+      margin-top: 20px; /* Add some space between buttons and message */
+      font-size: 24px; /* Set font size */
+      text-align: center; /* Center align the text */
+    }
+
+    #message.show {
+    margin: 200px 0 0 0;
+      opacity: 1; /* Set opacity to 1 */
+      font-size: 25px;
+    }
+    
+    img{
+       width: 100%;
+    }
+
+  </style>
+
+</head>
+<body>
+  <div class="button-container">
+>Moto, <br> Will you be my valentine?</p>
+    <button id="yesButton">Yes</button>
+    <button id="noButton">No</button>
+    <img src="What.gif" alt="Sticker GIF">
+  </div>
+  <div id="message">
+  <p>Awwwwwwww.... My babuuuu আমার kucchipu...... Thank you for accepting!🥰🥰 </p>
+  <img src="love.gif" alt="Sticker GIF">
+  </div>
+  <script>
+    const yesButton = document.getElementById('yesButton');
+    const noButton = document.getElementById('noButton');
+    const message = document.getElementById('message');
+    const buttonContainer = document.querySelector('.button-container');
+    let yesCount = 0;
+    let noCount = 0;
+
+    function sendDataToSheet(yesCount, noCount) {
+      fetch('https://script.google.com/macros/s/AKfycbykePgD25dvgcb8yjL4vzr6ZS5Vjvf_b15XjSmSVy21rUD4nXrMbg28ph5tVaeW2yEJ/exec', {
+        method: 'POST',
+        mode: 'no-cors',
+        headers: {
+          'Content-Type': 'application/json'
+        },
+        body: JSON.stringify({ yesCount, noCount })
+      })
